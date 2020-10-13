@@ -7,20 +7,38 @@
     "require": {
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-core": "4.x-dev",
-        "silverstripe/admin": "1.x-dev",
-        "silverstripe/asset-admin": "1.x-dev",
+        "silverstripe/admin": "dev-pulls/1/schemageddon as 1.6.3",
+        "silverstripe/asset-admin": "dev-pulls/1/schemageddon as 1.6.1",
         "silverstripe/campaign-admin": "1.x-dev",
         "silverstripe/versioned-admin": "1.x-dev",
-        "silverstripe/cms": "4.x-dev",
+        "silverstripe/cms": "dev-pulls/4/schemageddon as 4.6.0",
         "silverstripe/errorpage": "1.x-dev",
-        "silverstripe/graphql": "3.x-dev",
+        "silverstripe/graphql": "4.x-dev as 3.2.4",
         "silverstripe/reports": "4.x-dev",
         "silverstripe/siteconfig": "4.x-dev",
-        "silverstripe/versioned": "1.x-dev"
+        "silverstripe/versioned": "dev-pulls/1/schemageddon as 1.6.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
         "sminnee/phpunit-mock-objects": "^3.4.5"
+    },
+    "repositories": {
+    	"silverstripe/admin": {
+    		"type": "vcs",
+    		"url": "git@github.com:/unclecheese/silverstripe-admin"
+    	},
+    	"silverstripe/asset-admin": {
+    		"type": "vcs",
+    		"url": "git@github.com:/unclecheese/silverstripe-asset-admin"
+    	},
+    	"silverstripe/cms": {
+    		"type": "vcs",
+    		"url": "git@github.com:/unclecheese/silverstripe-cms"
+    	},
+    	"silverstripe/versioned": {
+    		"type": "vcs",
+    		"url": "git@github.com:/unclecheese/silverstripe-versioned"
+    	}
     },
     "extra": {
         "project-files": [
