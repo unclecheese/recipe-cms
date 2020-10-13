@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/silverstripe/recipe-cms.svg?branch=4)](https://travis-ci.org/silverstripe/recipe-cms)
 
-Base page and asset content-editing recipe for a SilverStripe ([http://silverstripe.org](http://silverstripe.org))
+Base page and asset content-editing recipe for a Silverstripe ([http://silverstripe.org](http://silverstripe.org))
 installation. This includes the modules:
 
 Provided by [silverstripe/recipe-core]:
@@ -25,7 +25,7 @@ Provided by [silverstripe/recipe-cms]:
  * [versioned](http://github.com/silverstripe/silverstripe-versioned)
 
 This can be either added to an existing project or used as a project base for creating a
-fully featured SilverStripe CMS project.
+fully featured Silverstripe CMS project.
 
 See the [recipe plugin](https://github.com/silverstripe/recipe-plugin) page for instructions on how
-SilverStripe recipes work.
+Silverstripe recipes work.
